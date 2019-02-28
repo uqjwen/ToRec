@@ -7,4 +7,7 @@ Datasets
 
 Pre-Train
 ---
+The pre-trained model is located in `/checkpoint/` directory, which can be used to initialized the model. 
 
+Training and testing
+---
