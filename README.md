@@ -11,3 +11,6 @@ The pre-trained model is located in `/checkpoint/` directory, which can be used 
 
 Training and testing
 ---
+run **`python3 model.py train`** to train the model and **`python3 model.py test`** to perform testing
+<br>The negative sampling rate is different for the training, validating and testing phase, and it can be modified in the source file
+<br>The recommendation performance is evaluating using HR@K AND NDCG@K, and they reside in the file `res.dat` in the directory `/model/` after testing
